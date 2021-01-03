@@ -1,0 +1,9 @@
+# Write a Python program to check if a number is a perfect square:
+
+import math
+n = int(input("Enter your number"))
+sqroot = math.sqrt(n)
+if sqroot**2 == n:
+    print("Perfect Square")
+else:
+    print("Not a Perfect Square")
