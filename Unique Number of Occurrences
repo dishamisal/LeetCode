@@ -9,7 +9,5 @@ class Solution:
         counter[i] = arr.count(i)
       print(counter)
       values = counter.values()
-      if sorted(values) == unique:
-        return 'true'
-      else:
-        return 'false'
+      return (sorted(values)) == (sorted(list(set(values))))
+      
